@@ -21,8 +21,8 @@ plugins {
 }
 */
 version = "1.0"
-group = "com.voxmods.lessintrusiveshields" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "lessintrusiveshields"
+group = "com.voxmods.shieldrework" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "shieldrework"
 
 minecraft {
     version = "1.9-12.16.0.1865-1.9"

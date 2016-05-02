@@ -1,7 +1,19 @@
-Less Intrusive Shields
+Shield Rework
 -------------------------
 
-LIS is a mod for Minecraft which changes the vanilla shields to take up less screen space and be less intrusive. This is especially helpful for livestreamers and builders who require more screen space.
+SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic changes as well as changing the transformations of the shields to fill less screen space, so more of the screen is uncovered for PvP and building.
+
+Features:
+ - Shields now take up less screen space in first person (both hands) and have changed transforms for third person.
+  - Though some of these visual effects could be modified by a resource pack, that would also change the position of the shield during blocking.
+
+Planned:
+ - Make shields retain coloring when repaired
+ - Shield enchanting (Unbreaking, Mending, custom enchantments)
+ - Enable "washing" in cauldron, similar to vanilla banners
+ - Let the coloring of the shield be replaced with a new banner
+ - Remove consumption of banner during coloring (configurable)
+
 
 Created by [Vox](http://github.com/WardBenjamin).
 

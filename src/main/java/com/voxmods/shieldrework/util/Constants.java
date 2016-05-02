@@ -1,10 +1,10 @@
-package com.voxmods.lessintrusiveshields.util;
+package com.voxmods.shieldrework.util;
 
 public class Constants {
     public static class Mod {
 
         // Mod Constants
-        public static final String MOD_ID = "LessIntrusiveShields";
+        public static final String MOD_ID = "ShieldRework";
         public static final String MOD_NAME = MOD_ID;
         public static final String VERSION = "@VERSION@" + "-MC" + "@MCVERSION@";
         public static final String DEPENDENCIES = "required-after:Forge@[12.16.0.1865,);";

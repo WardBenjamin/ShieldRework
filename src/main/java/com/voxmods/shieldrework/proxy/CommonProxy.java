@@ -1,21 +1,23 @@
-package com.voxmods.lessintrusiveshields.proxy;
+package com.voxmods.shieldrework.proxy;
 
-import com.voxmods.lessintrusiveshields.override.OverrideShield;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class ClientProxy extends CommonProxy {
+/**
+ * Created by wardp on 5/1/2016.
+ */
+public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
-        super.preInit(event);
-        OverrideShield.preInitClient(event);
+        // NO-OP
     }
 
     public void init(FMLInitializationEvent event) {
-        super.init(event);
+        // NO-OP
     }
 
     public void postInit(FMLPostInitializationEvent event) {
-        super.postInit(event);
+        // NO-OP
     }
+
 }

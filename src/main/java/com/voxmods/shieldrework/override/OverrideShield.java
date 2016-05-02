@@ -1,6 +1,6 @@
-package com.voxmods.lessintrusiveshields.override;
+package com.voxmods.shieldrework.override;
 
-import com.voxmods.lessintrusiveshields.util.Constants;
+import com.voxmods.shieldrework.util.Constants;
 import net.minecraft.client.renderer.ItemMeshDefinition;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

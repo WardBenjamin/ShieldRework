@@ -1,11 +1,11 @@
 [
 {
-  "modid": "LessIntrusiveShields",
-  "name": "Less Intrusive Shields",
-  "description": "LIS changes the vanilla shields to take up less screen space and be less intrusive, especially helpful for livestreamers and builders who require more screen space.",
+  "modid": "ShieldRework",
+  "name": "Shield Rework",
+  "description": "SR reworks the shields added in vanilla Minecraft 1.9.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/VoxMods/LessIntrusiveShields",
+  "url": "https://github.com/VoxMods/ShieldRework",
   "updateUrl": "",
   "authorList": ["Vox"],
   "credits": "DireWolf20 and the ForgeCraft crew for the original idea.",
