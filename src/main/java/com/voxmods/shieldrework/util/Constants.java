@@ -13,7 +13,7 @@ public class Constants {
 
     public static class Proxy {
         // Proxy Constants
-        public static final String COMMON = "com.voxmods.lessintrusiveshields.proxy.CommonProxy";
-        public static final String CLIENT = "com.voxmods.lessintrusiveshields.proxy.ClientProxy";
+        public static final String COMMON = "com.voxmods.shieldrework.proxy.CommonProxy";
+        public static final String CLIENT = "com.voxmods.shieldrework.proxy.ClientProxy";
     }
 }
