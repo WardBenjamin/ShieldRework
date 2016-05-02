@@ -37,7 +37,7 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 
     replaceIn "util/Constants.java"
-    replace "VERSION", project.version
+    replace "@VERSION@", project.version
     replace "@MCVERSION@", project.minecraft.version
 }
 
