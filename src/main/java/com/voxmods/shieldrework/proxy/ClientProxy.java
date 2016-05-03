@@ -1,6 +1,7 @@
 package com.voxmods.shieldrework.proxy;
 
-import com.voxmods.shieldrework.override.OverrideShield;
+import com.voxmods.shieldrework.override.client.ShieldClientOverride;
+import com.voxmods.shieldrework.config.EnumShieldBehavior;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -8,7 +9,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class ClientProxy extends CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);
-        OverrideShield.preInitClient(event);
+
+        ShieldClientOverride.preInitClient(event);
     }
 
     public void init(FMLInitializationEvent event) {
