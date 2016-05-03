@@ -20,7 +20,7 @@ SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic change
    - Add configuration option for shield behavior
     - Always lowered (or)
     - Lowered when holding block
-  - v2.2:
+  - v1.2:
    - Add configuration option to shield behavior
     - Completely hidden, I.e. does not show up on screen at all.
 
