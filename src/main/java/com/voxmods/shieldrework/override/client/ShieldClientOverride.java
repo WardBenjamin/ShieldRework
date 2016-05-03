@@ -65,7 +65,7 @@ public class ShieldClientOverride {
                     {
                         EnumHand hand = EnumHand.MAIN_HAND;
                         EntityPlayer player = (EntityPlayer)entityIn;
-                        if(stack == player.getHeldItemOffhand())
+                        if(stack == player.getHeldItemMainhand())
                             hand = EnumHand.OFF_HAND;
                         if(player.getHeldItem(hand) != null
                                 && player.getHeldItem(hand).getItem() instanceof ItemBlock)

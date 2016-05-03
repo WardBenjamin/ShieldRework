@@ -1,19 +1,32 @@
-Shield Rework
+##Shield Rework
 -------------------------
 
 SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic changes as well as changing the transformations of the shields to fill less screen space, so more of the screen is uncovered for PvP and building.
 
-Features:
+#####Features:
  - Shields now take up less screen space in first person (both hands) and have changed transforms for third person.
   - Though some of these visual effects could be modified by a resource pack, that would also change the position of the shield during blocking.
+  - Configurable to lower when holding a block, or to lower always.
 
-Planned:
+#####Planned:
  - Make shields retain coloring when repaired
  - Shield enchanting (Unbreaking, Mending, custom enchantments)
  - Enable "washing" in cauldron, similar to vanilla banners
  - Let the coloring of the shield be replaced with a new banner
  - Remove consumption of banner during coloring (configurable)
 
+#####Changelog:
+  - v1.1:
+   - Add configuration option for shield behavior
+    - Always lowered (or)
+    - Lowered when holding block
+
+#####Configuration:
+ - general:
+  - shieldBehavior
+   - Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
+       - Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
+   - Set to 1 to set shield to always lower
 
 Created by [Vox](http://github.com/WardBenjamin).
 
