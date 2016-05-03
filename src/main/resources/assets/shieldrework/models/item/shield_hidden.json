@@ -12,14 +12,14 @@
       "scale": [ 1, 1, 1 ]
     },
     "firstperson_righthand": {
-      "rotation": [ 0, 180, 5 ],
-      "translation": [ -10, 2, -10 ],
-      "scale": [ 1.25, 1.25, 1.25 ]
+      "rotation": [ 0, 180, -5 ],
+      "translation": [ -10, -10, -10 ],
+      "scale": [ 0.01, 0.01, 0.01 ]
     },
     "firstperson_lefthand": {
-      "rotation": [ 0, 180, 5 ],
-      "translation": [ 10, 0, -10 ],
-      "scale": [ 1.25, 1.25, 1.25 ]
+      "rotation": [ 0, 180, -5 ],
+      "translation": [ 10, -10, -10 ],
+      "scale": [ 0.01, 0.01, 0.01 ]
     },
     "gui": {
       "rotation": [ 15, -25, -5 ],
@@ -36,25 +36,5 @@
       "translation": [ 4, 4, 2],
       "scale":[ 0.25, 0.25, 0.25]
     }
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "minecraft:blocking": 1
-      },
-      "model": "minecraft:item/shield_blocking"
-    },
-    {
-      "predicate": {
-        "shieldrework:hideshield": 1
-      },
-      "model": "shieldrework:item/shield_hidden"
-    },
-    {
-      "predicate": {
-        "shieldrework:blockheld": 1
-      },
-      "model": "shieldrework:item/shield_lowered"
-    }
-  ]
+  }
 }

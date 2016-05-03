@@ -78,5 +78,13 @@ public class ShieldClientOverride {
                 }
             });
         }
+        else if(behavior == EnumShieldBehavior.HIDE_COMPLETELY) {
+            shield.addPropertyOverride(new ResourceLocation("shieldrework", "hideshield"), new IItemPropertyGetter() {
+                @Override
+                public float apply(ItemStack stack, World worldIn, EntityLivingBase entityIn) {
+                    return 1;
+                }
+            });
+        }
     }
 }

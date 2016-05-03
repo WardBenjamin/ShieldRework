@@ -20,6 +20,9 @@ SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic change
    - Add configuration option for shield behavior
     - Always lowered (or)
     - Lowered when holding block
+  - v2.2:
+   - Add configuration option to shield behavior
+    - Completely hidden, I.e. does not show up on screen at all.
 
 #####Configuration:
  - general:
@@ -27,6 +30,7 @@ SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic change
    - Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
        - Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
    - Set to 1 to set shield to always lower
+   - Set to 2 to set shield to always be hidden (I.e. does not show up on screen)
 
 Created by [Vox](http://github.com/WardBenjamin).
 
