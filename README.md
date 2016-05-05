@@ -1,6 +1,5 @@
 ![Shield Rework Logo](https://raw.githubusercontent.com/VoxMods/ShieldRework/dev/img/ShieldRework.png)
 
-##Shield Rework
 -------------------------
 
 SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic changes as well as changing the transformations of the shields to fill less screen space, so more of the screen is uncovered for PvP and building.
