@@ -12,7 +12,16 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
     }
 }
+
 apply plugin: 'net.minecraftforge.gradle.forge'
+
+repositories {
+    maven {
+        // JEI
+        name 'DVS1 Maven FS'
+        url 'http://dvs1.progwml6.com/files/maven'
+    }
+}
 
 /*
 // for people who want stable - not yet functional for MC 1.8.8 - we require the forgegradle 2.1 snapshot
@@ -26,7 +35,7 @@ group = "com.voxmods.shieldrework" // http://maven.apache.org/guides/mini/guide-
 archivesBaseName = "shieldrework"
 
 minecraft {
-    version = "1.9-12.16.0.1865-1.9"
+    version = "1.9-12.16.1.1887"
     runDir = "run"
 
     // the mappings can be changed at any time, and must be in the following format.
@@ -40,6 +49,8 @@ minecraft {
     replaceIn "util/Constants.java"
     replace "@VERSION@", project.version
     replace "@MCVERSION@", project.minecraft.version
+
+    useDepAts = true
 }
 
 dependencies {
@@ -47,6 +58,9 @@ dependencies {
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"
+
+    deobfCompile "mezz.jei:jei_1.9:3.3.3.+"
+    //deobfCompile "TConstruct-1.9-2.3.0"
 
     // real examples
     //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env

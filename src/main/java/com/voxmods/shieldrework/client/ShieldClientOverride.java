@@ -1,4 +1,4 @@
-package com.voxmods.shieldrework.override.client;
+package com.voxmods.shieldrework.client;
 
 import com.voxmods.shieldrework.ShieldRework;
 import com.voxmods.shieldrework.config.EnumShieldBehavior;

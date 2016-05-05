@@ -1,7 +1,6 @@
 package com.voxmods.shieldrework.proxy;
 
-import com.voxmods.shieldrework.override.client.ShieldClientOverride;
-import com.voxmods.shieldrework.config.EnumShieldBehavior;
+import com.voxmods.shieldrework.client.ShieldClientOverride;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

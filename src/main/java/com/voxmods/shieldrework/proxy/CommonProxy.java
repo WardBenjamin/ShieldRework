@@ -1,15 +1,15 @@
 package com.voxmods.shieldrework.proxy;
 
+import com.voxmods.shieldrework.plugin.PluginRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-/**
- * Created by wardp on 5/1/2016.
- */
 public class CommonProxy {
+    PluginRegistry PluginRegistry;
+
     public void preInit(FMLPreInitializationEvent event) {
-        // NO-OP
+        this.PluginRegistry = new PluginRegistry();
     }
 
     public void init(FMLInitializationEvent event) {
