@@ -36,6 +36,8 @@ Created by [Vox](http://github.com/WardBenjamin).
 
 Inspired by DireWolf20 and the ForgeCraft2 crew.
 
+Logo by [Biochemic](https://github.com/TheBiochemic)
+
 Pull Requests
 ---------------
 
