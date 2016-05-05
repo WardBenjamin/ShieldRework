@@ -1,4 +1,4 @@
-[Shield Rework Logo](https://raw.githubusercontent.com/VoxMods/ShieldRework/dev/img/ShieldRework.png)
+![Shield Rework Logo](https://raw.githubusercontent.com/VoxMods/ShieldRework/dev/img/ShieldRework.png)
 
 ##Shield Rework
 -------------------------
