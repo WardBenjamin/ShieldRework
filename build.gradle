@@ -21,9 +21,30 @@ repositories {
     }
 }
 
-version = "1.2"
+// Convention: MCVERSION.MAJORMOD.MAJORAPI.MINOR.PATCH
+// See: http://mcforge.readthedocs.io/en/latest/conventions/versioning/
+// MCVERSION
+  // Always matches the Minecraft version the mod is for.
+// MAJORMOD
+  // Removing items, blocks, tile entities, etc.
+  // Changing or removing previously existing mechanics.
+  // Updating to a new Minecraft version.
+// MAJORAPI
+  // Changing the order or variables of enums.
+  // Changing return types of methods.
+  // Removing public methods altogether.
+// MINOR
+  // Adding items, blocks, tile entities, etc.
+  // Adding new mechanics.
+  // Deprecating public methods. (This is not a MAJOR-API increment since it doesn’t break an API.)
+// PATCH
+  // Bugfixes.
+version = "1.9-1.3.0.0"
 group = "com.voxmods.shieldrework"
 archivesBaseName = "shieldrework"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 minecraft {
     version = "1.9-12.16.1.1887"
@@ -40,7 +61,7 @@ minecraft {
 
 dependencies {
     deobfCompile "mezz.jei:jei_1.9:3.3.3.+"
-    //deobfCompile "tconstruct:TConstruct:1.9-2.3.0"
+    deobfCompile "slimeknights:TConstruct:1.9-2.3.0.jenkins193"
 }
 
 processResources

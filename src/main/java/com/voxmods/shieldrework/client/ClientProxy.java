@@ -1,23 +1,22 @@
-package com.voxmods.shieldrework.proxy;
+package com.voxmods.shieldrework.client;
 
-import com.voxmods.shieldrework.plugin.PluginRegistry;
+import com.voxmods.shieldrework.common.CommonProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-public class CommonProxy {
-    PluginRegistry PluginRegistry;
-
+public class ClientProxy extends CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
-        this.PluginRegistry = new PluginRegistry();
+        super.preInit(event);
+
+        ShieldClientOverride.preInitClient(event);
     }
 
     public void init(FMLInitializationEvent event) {
-        // NO-OP
+        super.init(event);
     }
 
     public void postInit(FMLPostInitializationEvent event) {
-        // NO-OP
+        super.postInit(event);
     }
-
 }

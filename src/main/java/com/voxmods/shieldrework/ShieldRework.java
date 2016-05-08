@@ -1,6 +1,9 @@
 package com.voxmods.shieldrework;
 
-import com.voxmods.shieldrework.proxy.CommonProxy;
+import com.voxmods.shieldrework.common.CommonProxy;
+import com.voxmods.shieldrework.registry.ModBlocks;
+import com.voxmods.shieldrework.registry.ModItems;
+import com.voxmods.shieldrework.registry.ModRecipes;
 import com.voxmods.shieldrework.util.Constants;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
@@ -26,12 +29,17 @@ public class ShieldRework {
     public void preInit(FMLPreInitializationEvent event)
     {
         config = new Configuration(event.getSuggestedConfigurationFile());
+
+        ModBlocks.init();
+        ModItems.init();
+
         proxy.preInit(event);
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModRecipes.init();
         proxy.init(event);
     }
 
