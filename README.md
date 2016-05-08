@@ -2,69 +2,71 @@
 
 -------------------------
 
-SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic changes as well as changing the transformations of the shields to fill less screen space, so more of the screen is uncovered for PvP and building.
+ShieldRework reworks the shields added in vanilla Minecraft 1.9 cosmetically and functionally, allowing you as the player to focus less on the shield taking up a quarter of your screen and more on building and PvP.
 
-#####Features:
- - Shields now take up less screen space in first person (both hands) and have changed transforms for third person.
-  - Though some of these visual effects could be modified by a resource pack, that would also change the position of the shield during blocking.
-  - Configurable to lower when holding a block, or to lower always.
+Created by Vox. Check out his other mods on [Github](https://github.com/VoxMods)!
 
-#####Planned:
- - More shield colors, based on the metal used.
-  - Different shields based on the common mod metals and vanilla metals, i.e. copper, tin, gold, etc.]
-  - Durability would change based on metal
-   - Maybe other stuff too
- - Tinker's Construct integration!
-  - This would replace the shields mentioned above
-  - Integration with part builder, smeltery, and all TiCon materials
-   - Other than durability upgrades, I have no idea on how to integrate with TiCon modifiers
-    - Ideas are welcome!
-
-#####Potential features:
- - Make shields retain coloring when repaired
- - Shield enchanting (Unbreaking, Mending, custom enchantments)
- - Enable "washing" in cauldron, similar to vanilla banners
- - Let the coloring of the shield be replaced with a new banner
- - Remove consumption of banner during coloring (configurable)
-
-#####Changelog:
-  - v1.1:
-   - Add configuration option for shield behavior
-    - Always lowered (or)
-    - Lowered when holding block
-  - v1.2:
-   - Add configuration option to shield behavior
-    - Completely hidden, I.e. does not show up on screen at all.
-
-#####Configuration:
- - general:
-  - shieldBehavior
-   - Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
-       - Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
-   - Set to 1 to set shield to always lower
-   - Set to 2 to set shield to always be hidden (I.e. does not show up on screen)
-
-Created by [Vox](http://github.com/WardBenjamin).
+Logo by [Biochemic](https://github.com/TheBiochemic)!
 
 Inspired by DireWolf20 and the ForgeCraft2 crew.
 
-Logo by [Biochemic](https://github.com/TheBiochemic)
+Features:
 
-Pull Requests
----------------
+Shields now take up less screen space in first person (both hands) and have changed transforms for third person. Though some of these visual effects could be modified by a resource pack, that would also change the position of the shield during blocking.
 
-Pull requests with new features, translations, and bugfixes are very welcome. Please make sure to always submit PRs against the ***dev*** branch, not master.
+Shields are now configurable to lower when holding a block, or to lower always, or to completely hide the shield altogether. This configuration works for a shield held in both hands.
+
+Download/Installation:
+
+ShieldRework requires Minecraft 1.9 and Forge 1887 or later. Just drop it in your mods folder and get ready to play!
+
+Planned:
+
+More shields! Each shield would have a custom durability and other mechanics specific to it. Currently, the planned shield types are bone, which would be similar to wood but cosmetically different, as well as several metallic shields, which would have a chance to reflect blaze projectiles, arrows, or ghast fireballs.
+
+If playing only with ShieldRework, only an iron shield would be added, but if you're playing with a mod that adds bronze or steel, shield options will be added for those as well with different traits.
+
+Right now, new features are awaiting an update to forge that will expose the way that shields and banners are rendered to modders, so that we can render new types of shields, banners, and other items that would use this system. Until then, no new shields will correctly render due to Minecraft restrictions.
+
+
+#####Changelog:
+    v1.1:
+        Add configuration option for shield behavior
+            Always lowered (or)
+            Lowered when holding block
+    v1.2:
+        Add a new configuration option to shield behavior
+            Completely hidden, I.e. does not show up on screen at all.
+    v1.3:
+        Overrides vanilla recipe to allow all types of planks to be used. This should also allow for modded planks or iron ingots.
+        Adds Minecraft version to versioning system.
+
+#####Configuration:
+    general:
+        shieldBehavior
+            Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
+                Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
+            Set to 1 to set shield to always lower
+            Set to 2 to set shield to always be completely hidden (I.e. never show up on screen at all).
+
+#####Pull Requests
+
+--------------------
+
+Pull requests with new features, translations, and bugfixes are very welcome. Please make sure to always submit PRs against the dev branch, not master.
 
 Do not make PRs that are solely formatting or other aesthetic things.
 
 If your PR is going to take a lot of work, it may be best to make an issue so we can discuss the feature before you create it.
 
-Issue Reporting
-----------------
+#####Issue Reporting
+
+----------------------
+
 If you wish to report an issue with the mod, please submit one to the issue tracker in this repository.  When creating an
 issue, please be sure to include:
 
-- The version of SR you are using ("latest" is not an acceptable version)
-- The version of Forge you are using
-- If applicable, the crash report (preferably via [Pastebin](http://pastebin.com/)). generated by the error
-- Depending on the error, an image of the problem
+    The version of SR you are using ("latest" is not an acceptable version)
+    The version of Forge you are using
+    If applicable, the crash report (preferably via [Pastebin](http://pastebin.com/)). generated by the error
+    Depending on the error, an image of the problem
