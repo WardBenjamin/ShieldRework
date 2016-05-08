@@ -1,4 +1,5 @@
-##Shield Rework
+![Shield Rework Logo](https://raw.githubusercontent.com/VoxMods/ShieldRework/dev/img/ShieldRework.png)
+
 -------------------------
 
 SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic changes as well as changing the transformations of the shields to fill less screen space, so more of the screen is uncovered for PvP and building.
@@ -9,6 +10,17 @@ SR reworks the shields added in vanilla Minecraft 1.9. This adds cosmetic change
   - Configurable to lower when holding a block, or to lower always.
 
 #####Planned:
+ - More shield colors, based on the metal used.
+  - Different shields based on the common mod metals and vanilla metals, i.e. copper, tin, gold, etc.]
+  - Durability would change based on metal
+   - Maybe other stuff too
+ - Tinker's Construct integration!
+  - This would replace the shields mentioned above
+  - Integration with part builder, smeltery, and all TiCon materials
+   - Other than durability upgrades, I have no idea on how to integrate with TiCon modifiers
+    - Ideas are welcome!
+
+#####Potential features:
  - Make shields retain coloring when repaired
  - Shield enchanting (Unbreaking, Mending, custom enchantments)
  - Enable "washing" in cauldron, similar to vanilla banners
