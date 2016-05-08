@@ -10,17 +10,23 @@ Logo by [Biochemic](https://github.com/TheBiochemic)!
 
 Inspired by DireWolf20 and the ForgeCraft2 crew.
 
-#####Features:
+####Features:
+
+---------------------------
 
 Shields now take up less screen space in first person (both hands) and have changed transforms for third person. Though some of these visual effects could be modified by a resource pack, that would also change the position of the shield during blocking.
 
 Shields are now configurable to lower when holding a block, or to lower always, or to completely hide the shield altogether. This configuration works for a shield held in both hands.
 
-Download/Installation:
+####Download/Installation:
+
+-----------------------
 
 ShieldRework requires Minecraft 1.9 and Forge 1887 or later. Just drop it in your mods folder and get ready to play!
 
-#####Planned:
+####Planned:
+
+---------------------------
 
 More shields! Each shield would have a custom durability and other mechanics specific to it. Currently, the planned shield types are bone, which would be similar to wood but cosmetically different, as well as several metallic shields, which would have a chance to reflect blaze projectiles, arrows, or ghast fireballs.
 
@@ -30,24 +36,24 @@ Right now, new features are awaiting an update to forge that will expose the way
 
 
 #####Changelog:
-v1.1:
-    Add configuration option for shield behavior
-        Always lowered (or)
-        Lowered when holding block
-v1.2:
-    Add a new configuration option to shield behavior
-        Completely hidden, I.e. does not show up on screen at all.
-v1.3:
-    Overrides vanilla recipe to allow all types of planks to be used. This should also allow for modded planks or iron ingots.
-    Adds Minecraft version to versioning system.
+ - v1.1:
+     - Add configuration option for shield behavior
+         - Always lowered (or)
+         - Lowered when holding block
+ - v1.2:
+     - Add a new configuration option to shield behavior
+         - Completely hidden, I.e. does not show up on screen at all.
+ - v1.3:
+     - Overrides vanilla recipe to allow all types of planks to be used. This should also allow for modded planks or iron ingots.
+     - Adds Minecraft version to versioning system.
 
 #####Configuration:
-general:
-    shieldBehavior
-        Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
-            Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
-        Set to 1 to set shield to always lower
-        Set to 2 to set shield to always be completely hidden (I.e. never show up on screen at all).
+ - general:
+     - shieldBehavior
+         - Set to 0 (or any other unused number, since this is default) to set shield to lower only when holding a block
+             - Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
+         - Set to 1 to set shield to always lower
+         - Set to 2 to set shield to always be completely hidden (I.e. never show up on screen at all).
 
 #####Pull Requests
 
