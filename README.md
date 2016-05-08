@@ -34,6 +34,7 @@ If playing only with ShieldRework, only an iron shield would be added, but if yo
 
 Right now, new features are awaiting an update to forge that will expose the way that shields and banners are rendered to modders, so that we can render new types of shields, banners, and other items that would use this system. Until then, no new shields will correctly render due to Minecraft restrictions.
 
+----------------------------
 
 #####Changelog:
  - v1.1:
@@ -54,6 +55,8 @@ Right now, new features are awaiting an update to forge that will expose the way
              - Warning, setting this to a number other than 0 may lead to unintended behavior in updated versions of this mod if that number becomes used.
          - Set to 1 to set shield to always lower
          - Set to 2 to set shield to always be completely hidden (I.e. never show up on screen at all).
+
+--------------------------------
 
 #####Pull Requests
 
